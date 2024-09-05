@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playbook P1 M02</title>
+    <title>Playbook-P1-M02</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
@@ -81,28 +81,6 @@
             font-size: 1.5em;
             margin-bottom: 10px;
         }
-        .note {
-            background-color: #ffeb3b;
-            padding: 10px;
-            border: 1px solid #ddd;
-            margin-bottom: 10px;
-        }
-        .nav-buttons {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 10px;
-        }
-        .nav-buttons button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-        .nav-buttons button:disabled {
-            background-color: #ddd;
-            cursor: not-allowed;
-        }
     </style>
     <script>
         function toggleContent(id) {
@@ -144,7 +122,7 @@
 <body onload="updateActivities()">
 
 <div class="header">
-    <h1>Playbook P1 M02</h1>
+    <h1>Playbook-P1-M02</h1>
 </div>
 
 <div class="container">
@@ -158,274 +136,318 @@
     </div>
 
     <h2 id="selected-time" class="time-title">Tiempo efectivo de clase: 50 minutos</h2>
+<!-- Actividad 0: Revisión de Misión -->
 <div id="activity-0" class="activity">
-    <div class="banner" onclick="toggleContent('revision')">
+    <div class="banner" onclick="toggleContent('mission_review')">
         <div class="title">
-            <span>📝 Actividad 0: Revisión Misión</span>
-            <span>⏰ Tiempo: N/A minutos</span>
+            <span>📝 Actividad 0: Revisión de Misión</span>
+            <span>⏰ Tiempo: N/A</span>
         </div>
-        <div class="subtitle">Preparar la misión revisando la primera diapositiva</div>
-        <div class="summary">Revisar la primera diapositiva para poder preparar la misión.</div>
+        <div class="subtitle">Preparación y revisión de los materiales</div>
+        <div class="summary">Proyectar la diapositiva "Materiales y preparación de la Misión" y verificar que las computadoras estén encendidas y Paint esté instalado.</div>
     </div>
-    <div id="revision" class="content">
+    <div id="mission_review" class="content">
         <div class="section">
-            <div class="step-title">Paso 1: Revisar la primera diapositiva</div>
-            <div class="section-title">Acción</div>
-            <div class="dialogue">Revisar la primera diapositiva para poder preparar la misión.</div>
+            <div class="step-title">Paso 1: Proyectar la diapositiva 1 "Materiales y preparación de la Misión" y verificar la lista de materiales.</div>
+            <div class="section-title">Diálogo del Maestro</div>
+            <div class="dialogue">N/A</div>
         </div>
     </div>
 </div>
+<!-- Actividad 1: Saludo y Ritual Gnius Club -->
 <div id="activity-1" class="activity">
-    <div class="banner" onclick="toggleContent('saludo')">
+    <div class="banner" onclick="toggleContent('gnius_club_welcome')">
         <div class="title">
-            <span>📚 Actividad 1: Saludo y Ritual Gnius Club (4 pasos)</span>
-            <span>⏰ Tiempo: 3.0 minutos</span>
+            <span>👋 Actividad 1: Saludo y Ritual Gnius Club</span>
+            <span>⏰ Tiempo: 3 minutos</span>
         </div>
-        <div class="subtitle">Dar la bienvenida y preparar el ambiente</div>
-        <div class="summary">Proyectar la diapositiva con el logotipo de Gnius Club.</div>
+        <div class="subtitle">Bienvenida y preparación para la misión</div>
+        <div class="summary">Realización del saludo, revisión del estado de ánimo, y presentación de los objetivos del día.</div>
     </div>
-    <div id="saludo" class="content">
+    <div id="gnius_club_welcome" class="content">
         <div class="section">
-            <div class="step-title">Paso 1 (0.5 minutos): Proyectar la diapositiva con el logotipo de Gnius Club</div>
+            <div class="step-title">Paso 1 (0.5 minutos): Proyectar la diapositiva 2 "Saludo y Ritual Gnius Club" con el logotipo y dar la bienvenida a los estudiantes.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"¡Hola, Genios! 🌟 ¿Listos para otra aventura de aprendizaje increíble?"</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 2 (1.0 minutos): Proyectar la diapositiva con los emoticones de "Levanta el puño si estás emocionado, cruza los brazos si estás aburrido."</div>
+            <div class="step-title">Paso 2 (1 minuto): Proyectar la diapositiva 3 "Estado de Ánimo" y pedir a los estudiantes que usen gestos para expresar cómo se sienten.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"¿Cómo están hoy? Levanten el puño si están emocionados, crucen los brazos si están aburridos."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 3 (0.5 minutos): Proyectar la diapositiva con la animación del ritual.</div>
+            <div class="step-title">Paso 3 (0.5 minutos): Proyectar la diapositiva 4 "Ritual de Agradecimiento" y guiar el ritual de agradecimiento.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"Juntemos nuestras manos y agradezcamos por lo que vamos a aprender hoy. ¡Gracias por asistir!"</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 4 (1.0 minutos): Proyectar la diapositiva con los objetivos de la misión</div>
+            <div class="step-title">Paso 4 (1 minuto): Proyectar la diapositiva 5 "Objetivos de la Misión" y explicar los objetivos del día.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"Hoy tenemos 3 objetivos: 1) Encender la computadora, 2) Abrir Paint, 3) Familiarizarse con el escritorio de Windows."</div>
         </div>
     </div>
 </div>
+<!-- Actividad 2: Innovación del Día -->
 <div id="activity-2" class="activity">
-    <div class="banner" onclick="toggleContent('innovacion')">
+    <div class="banner" onclick="toggleContent('innovation_day')">
         <div class="title">
-            <span>💡 Actividad 2: Innovación del Día (4 pasos)</span>
-            <span>⏰ Tiempo: 5.0 minutos</span>
+            <span>💡 Actividad 2: Innovación del Día</span>
+            <span>⏰ Tiempo: 5 minutos</span>
         </div>
-        <div class="subtitle">Explorar cómo la tecnología está revolucionando el arte</div>
-        <div class="summary">Proyectar la diapositiva de introducción al concepto.</div>
+        <div class="subtitle">Exploración de la seguridad en internet</div>
+        <div class="summary">Introducción a la realidad aumentada y reflexión sobre su impacto en el arte.</div>
     </div>
-    <div id="innovacion" class="content">
+    <div id="innovation_day" class="content">
         <div class="section">
-            <div class="step-title">Paso 1 (1.0 minutos): Proyectar la diapositiva de introducción al concepto</div>
+            <div class="step-title">Paso 1 (1 minuto): Proyectar la diapositiva 6 "Concepto Innovador" para introducir la realidad aumentada.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"¡Genios, antes de comenzar, quiero que piensen en algo innovador! Hoy vamos a hablar sobre cómo las computadoras, el software y el hardware están revolucionando el mundo del arte a través de la realidad aumentada."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 2 (1.0 minutos): Proyectar la diapositiva del video</div>
+            <div class="step-title">Paso 2 (1 minuto): Proyectar la diapositiva 7 con el video sobre el uso de la realidad aumentada en el arte.</div>
             <div class="section-title">Diálogo del Maestro</div>
-            <div class="dialogue">"Veamos este breve video de 1 minuto que muestra cómo se utiliza la realidad aumentada para crear experiencias artísticas impresionantes, todo gracias a la combinación de software y hardware avanzados."</div>
+            <div class="dialogue">"Hoy vamos a hablar de algo muy especial llamado realidad aumentada. Es como si pudiéramos ver cosas nuevas y mágicas cuando usamos una tablet o un teléfono."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 3 (2.0 minutos): Explicar el impacto del uso o proyecto y cómo inspira a pensar fuera de lo convencional</div>
+            <div class="step-title">Paso 3 (2 minutos): Explicar cómo la tecnología cambia la forma de ver el arte.</div>
             <div class="section-title">Diálogo del Maestro</div>
-            <div class="dialogue">"Este uso de la realidad aumentada, posibilitado por software y hardware avanzados, está cambiando la forma en que interactuamos con el arte. Nos muestra que con la tecnología, podemos crear experiencias inmersivas y pensar fuera de lo convencional."</div>
+            <div class="dialogue">"Con esta tecnología, podemos ver el arte de una forma nueva y divertida. Nos ayuda a pensar en mejores ideas y a usar nuestra imaginación."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 4 (1.0 minutos): Proyectar la diapositiva de reflexión</div>
+            <div class="step-title">Paso 4 (1 minuto): Proyectar la diapositiva 8 "Reflexión" para guiar la reflexión de los estudiantes sobre el impacto de la tecnología.</div>
             <div class="section-title">Diálogo del Maestro</div>
-            <div class="dialogue">"Ahora, quiero que piensen en cómo este avance podría desafiar las normas que conocemos. ¿Cómo creen que la realidad aumentada, junto con el software y hardware avanzados, podría cambiar nuestra experiencia con el arte?"</div>
+            <div class="dialogue">"Quiero que piensen en cómo esta nueva tecnología puede cambiar lo que conocemos. ¿Cómo creen que la realidad aumentada puede hacer que el arte se vea diferente?"</div>
         </div>
     </div>
 </div>
+<!-- Actividad 3: Brain Gym -->
 <div id="activity-3" class="activity">
-    <div class="banner" onclick="toggleContent('brain-gym')">
+    <div class="banner" onclick="toggleContent('brain_gym')">
         <div class="title">
-            <span>💪 Actividad 3: Brain Gym (5 pasos)</span>
-            <span>⏰ Tiempo: 6.0 minutos</span>
+            <span>🧠 Actividad 3: Brain Gym</span>
+            <span>⏰ Tiempo: 18 minutos</span>
         </div>
-        <div class="subtitle">Activar el cerebro antes de comenzar el desafío del día</div>
-        <div class="summary">Proyectar la diapositiva de introducción al Brain Gym.</div>
+        <div class="subtitle">Ejercicios interactivos para aprender sobre el uso de la computadora</div>
+        <div class="summary">Exploración de los elementos básicos de una computadora y cómo utilizar Paint.</div>
     </div>
-    <div id="brain-gym" class="content">
+    <div id="brain_gym" class="content">
         <div class="section">
-            <div class="step-title">Paso 1 (1.0 minutos): Proyectar la diapositiva de introducción al Brain Gym</div>
+            <div class="step-title">Paso 1 (1 minuto): Proyectar la diapositiva 9 "Brain Gym" e iniciar la actividad.</div>
             <div class="section-title">Diálogo del Maestro</div>
-            <div class="dialogue">"¡Genios, es hora de activar nuestro cerebro con un poco de Brain Gym! Vamos a aprender sobre las computadoras de manera divertida. Antes de realizar el desafío del día, vamos a ejercitar nuestros cerebros adquiriendo un conocimiento nuevo. Así que pongan atención porque dentro de lo que voy a explicar hay un Easter Egg. Al final de la clase voy a lanzar una pregunta y quien la responda, ganará un mon-e."</div>
+            <div class="dialogue">"¡Genios, es hora de activar nuestro cerebro con un poco de Brain Gym! Vamos a aprender sobre las computadoras de manera divertida. Al final de la clase voy a hacer una pregunta y quien la responda, ganará un mon-e."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 2 (1.0 minutos): Proyectar la diapositiva de encender la computadora</div>
+            <div class="step-title">Paso 2 (1 minuto): Proyectar la diapositiva 10 "Encender la Computadora - Paso 1" y guiar a los estudiantes en los pasos para encender la computadora.</div>
             <div class="section-title">Diálogo del Maestro</div>
-            <div class="dialogue">"Genios, vamos a encender nuestras computadoras y monitores. Primero, busquen el botón de encendido en la torre de la computadora. Presionen el botón y verán una luz que se enciende."</div>
+            <div class="dialogue">"Genios, vamos a encender nuestras computadoras. Primero, busquen el botón de encendido en la torre de la computadora. Presionen el botón y verán una luz que se enciende."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 3 (1.0 minutos): Proyectar la diapositiva de encender el monitor</div>
+            <div class="step-title">Paso 3 (1 minuto): Proyectar la diapositiva 11 "Encender el Monitor - Paso 2" y guiar a los estudiantes para encender el monitor.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"Ahora, busquen el botón de encendido en el monitor y presionen también. Verán que la pantalla se ilumina."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 4 (2.0 minutos): Proyectar la diapositiva de iniciar sesión</div>
+            <div class="step-title">Paso 4 (2 minutos): Proyectar la diapositiva 12 "Iniciar Sesión" y guiar a los estudiantes en el proceso de iniciar sesión.</div>
             <div class="section-title">Diálogo del Maestro</div>
-            <div class="dialogue">"Ahora que sus computadoras están encendidas, verán una pantalla que les pide un usuario y una contraseña. Usen el teclado para escribir el usuario que les di y luego escriban la contraseña. Cuando hayan terminado, presionen la tecla 'Enter' en el teclado."</div>
+            <div class="dialogue">"Ahora que sus computadoras están encendidas, verán una pantalla que les pide un usuario y una contraseña. Usen el teclado para escribir el usuario que les di y luego escriban la contraseña."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 5 (1.0 minutos): Proyectar la diapositiva de aspectos básicos de la computadora</div>
+            <div class="step-title">Paso 5 (1 minuto): Proyectar la diapositiva 13 "Aspectos Básicos del Teclado y Mouse" para explicar estas herramientas.</div>
             <div class="section-title">Diálogo del Maestro</div>
-            <div class="dialogue">"Antes de continuar, revisemos algunas partes importantes de la computadora. Este es el teclado, lo usamos para escribir. Esta es la tecla 'Enter', la usamos para confirmar lo que escribimos. Este es el mouse, lo usamos para mover el cursor en la pantalla."</div>
+            <div class="dialogue">"Antes de continuar, revisemos algunas partes importantes de la computadora. Este es el teclado, lo usamos para escribir. Esta es la tecla 'Enter', la usamos para confirmar lo que escribimos."</div>
+        </div>
+        <div class="section">
+            <div class="step-title">Paso 6 (2 minutos): Proyectar la diapositiva 14 "Explorar el Escritorio de Windows" y explicar cómo interactuar con los íconos.</div>
+            <div class="section-title">Diálogo del Maestro</div>
+            <div class="dialogue">"Ahora que han iniciado sesión, este es el escritorio de Windows. Aquí pueden ver los íconos de diferentes programas y archivos. Usen el mouse para mover el cursor y hacer clic en los íconos. ¿Sabían que Windows se llama así porque muestra varias ventanas ('windows' en inglés) en la pantalla, permitiendo que trabajemos con varios programas al mismo tiempo?"</div>
+        </div>
+        <div class="section">
+            <div class="step-title">Paso 7 (2 minutos): Proyectar la diapositiva 15 "Abrir Paint - Paso 1" y guiar a los estudiantes para buscar Paint en su computadora.</div>
+            <div class="section-title">Diálogo del Maestro</div>
+            <div class="dialogue">"Ahora, vamos a buscar Paint. Hagan clic en el botón de 'Inicio' en la esquina inferior izquierda de la pantalla."</div>
+        </div>
+        <div class="section">
+            <div class="step-title">Paso 8 (1 minuto): Proyectar la diapositiva 16 "Abrir Paint - Paso 2" y guiar a los estudiantes en la búsqueda de la aplicación.</div>
+            <div class="section-title">Diálogo del Maestro</div>
+            <div class="dialogue">"Luego, escriban 'Paint' en la barra de búsqueda. Cuando vean el ícono de Paint, hagan clic en él para abrirlo."</div>
+        </div>
+        <div class="section">
+            <div class="step-title">Paso 9 (1 minuto): Proyectar la diapositiva 17 "Herramientas de Paint - Pincel" y explicar cómo usar esta herramienta para dibujar.</div>
+            <div class="section-title">Diálogo del Maestro</div>
+            <div class="dialogue">"Genios, ahora que tenemos Paint abierto, veamos algunas de las herramientas básicas que usaremos para dibujar. Aquí está el pincel, lo usaremos para dibujar líneas y formas."</div>
+        </div>
+        <div class="section">
+            <div class="step-title">Paso 10 (1 minuto): Proyectar la diapositiva 18 "Herramientas de Paint - Borrador" y explicar cómo se usa el borrador en Paint.</div>
+            <div class="section-title">Diálogo del Maestro</div>
+            <div class="dialogue">"Aquí está el borrador, que usaremos para corregir errores."</div>
+        </div>
+        <div class="section">
+            <div class="step-title">Paso 11 (1 minuto): Proyectar la diapositiva 19 "Herramientas de Paint - Paleta de colores" y explicar cómo elegir colores.</div>
+            <div class="section-title">Diálogo del Maestro</div>
+            <div class="dialogue">"Y aquí está la paleta de colores, para elegir los colores que queremos usar."</div>
+        </div>
+        <div class="section">
+            <div class="step-title">Paso 12 (1 minuto): Proyectar la diapositiva 20 "Resumen" y resumir los puntos clave del Brain Gym.</div>
+            <div class="section-title">Diálogo del Maestro</div>
+            <div class="dialogue">"Genios, veamos cómo vamos con nuestros objetivos."</div>
         </div>
     </div>
 </div>
+<!-- Actividad 4: State Change - Juego de Simón Dice -->
 <div id="activity-4" class="activity">
-    <div class="banner" onclick="toggleContent('state-change')">
+    <div class="banner" onclick="toggleContent('state_change')">
         <div class="title">
-            <span>🔄 Actividad 4: State Change (4 pasos)</span>
-            <span>⏰ Tiempo: 2.0 minutos</span>
+            <span>🧘 Actividad 4: State Change - Juego de Simón Dice</span>
+            <span>⏰ Tiempo: 2 minutos</span>
         </div>
-        <div class="subtitle">Jugar al 'Simón Dice' para cambiar el estado mental</div>
-        <div class="summary">Proyectar la diapositiva de Juego de Simón Dice.</div>
+        <div class="subtitle">Movimientos de activación física</div>
+        <div class="summary">Un juego rápido de "Simón Dice" para activar la mente y el cuerpo antes de continuar con las actividades.</div>
     </div>
-    <div id="state-change" class="content">
+    <div id="state_change" class="content">
         <div class="section">
-            <div class="step-title">Paso 1 (0.5 minutos): Proyectar la diapositiva de Juego de Simón Dice</div>
+            <div class="step-title">Paso 1 (0.5 minutos): Proyectar la diapositiva 21 "Juego de Simón Dice" e introducir la actividad.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"¡Genios, vamos a jugar un rápido juego de 'Simón Dice' para prepararnos para lo que sigue! Cuando diga 'Simón dice', hagan lo que yo haga. Si no digo 'Simón dice', no lo hagan. ¿Listos?"</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 2 (0.5 minutos): Guiar a los estudiantes a tocar su cabeza</div>
+            <div class="step-title">Paso 2 (0.5 minutos): Guiar a los estudiantes a tocar su cabeza.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"Simón dice, toca tu cabeza."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 3 (0.5 minutos): Guiar a los estudiantes a saltar en el lugar</div>
+            <div class="step-title">Paso 3 (0.5 minutos): Guiar a los estudiantes a saltar en el lugar.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"Simón dice, salta en el lugar."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 4 (0.5 minutos): Guiar a los estudiantes a tocar sus pies</div>
+            <div class="step-title">Paso 4 (0.5 minutos): Guiar a los estudiantes a tocar sus pies.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"Toca tus pies. ¡Oh, recuerden, solo cuando Simón dice!"</div>
         </div>
     </div>
 </div>
+<!-- Actividad 5: Team Gnius -->
 <div id="activity-5" class="activity">
-    <div class="banner" onclick="toggleContent('team-gnius')">
+    <div class="banner" onclick="toggleContent('team_gnius')">
         <div class="title">
-            <span>🤝 Actividad 5: Team Gnius (2 pasos)</span>
-            <span>⏰ Tiempo: 3.0 minutos</span>
+            <span>🤝 Actividad 5: Team Gnius</span>
+            <span>⏰ Tiempo: 3 minutos</span>
         </div>
-        <div class="subtitle">Formar equipos y preparar para el desafío</div>
-        <div class="summary">Proyectar Diapositiva 1 "Team Gnius".</div>
+        <div class="subtitle">Trabajo en equipo y colaboración</div>
+        <div class="summary">Formación de equipos y uso de herramientas para colaborar en el desafío del día.</div>
     </div>
-    <div id="team-gnius" class="content">
+    <div id="team_gnius" class="content">
         <div class="section">
-            <div class="step-title">Paso 1 (1.0 minutos): Proyectar Diapositiva 1 "Team Gnius"</div>
+            <div class="step-title">Paso 1 (1 minuto): Proyectar la diapositiva 22 "Team Gnius" y anunciar la formación de equipos.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"¡Es hora de trabajar en equipo, Genios! Vamos a formar grupos de 4. Tienen 30 segundos para decidir con quién van a trabajar."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 2 (2.0 minutos): Proyectar Diapositiva 2 y guiar a los estudiantes</div>
+            <div class="step-title">Paso 2 (2 minutos): Proyectar la diapositiva 24 "Preparación para el Challenge" e indicar que usarán las Magic Tablets para anotar sus ideas.</div>
             <div class="section-title">Diálogo del Maestro</div>
-            <div class="dialogue">"Una vez que estén en sus equipos, usaremos las Magic Tables para anotar nuestras ideas cuando se revele el desafío."</div>
+            <div class="dialogue">"Una vez que estén en sus equipos, usaremos las Magic Tablets para anotar nuestras ideas cuando se revele el desafío."</div>
         </div>
     </div>
 </div>
+<!-- Actividad 6: Challenge - Desafío del Día -->
 <div id="activity-6" class="activity">
-    <div class="banner" onclick="toggleContent('challenge')">
+    <div class="banner" onclick="toggleContent('challenge_day')">
         <div class="title">
-            <span>🏆 Actividad 6: Challenge (5 pasos)</span>
-            <span>⏰ Tiempo: 17.0 minutos</span>
+            <span>🏆 Actividad 6: Challenge - Desafío del Día</span>
+            <span>⏰ Tiempo: 17 minutos</span>
         </div>
-        <div class="subtitle">Realizar el desafío del día en equipos</div>
-        <div class="summary">Proyectar la diapositiva de desafío.</div>
+        <div class="subtitle">Desafío en equipo para crear y presentar</div>
+        <div class="summary">Cada equipo trabajará en la creación de un animal marino utilizando Paint.</div>
     </div>
-    <div id="challenge" class="content">
+    <div id="challenge_day" class="content">
         <div class="section">
-            <div class="step-title">Paso 1 (1.0 minutos): Proyectar la diapositiva de desafío</div>
+            <div class="step-title">Paso 1 (1 minuto): Proyectar la diapositiva 25 "Desafío del Día" e introducir el desafío.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"¡Genios, es hora del desafío! En sus equipos, cada uno de ustedes dibujará un animal marino en la Magic Tablet. Tienen 1 minuto para cada dibujo."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 2 (4.0 minutos): Guiar a los estudiantes mientras dibujan</div>
+            <div class="step-title">Paso 2 (4 minutos): Proyectar la diapositiva 26 "Dibujando Animales Marinos", repetir el timer de la diapositiva para hacer cambio de cada integrante de grupo y guiar a los estudiantes mientras dibujan.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"Ahora, comencemos. El primer miembro del equipo dibujará un animal marino. Tienen 1 minuto. ¡Manos a la obra!" (Repetir para cada miembro del equipo, 4 minutos en total)</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 3 (1.0 minutos): Proyectar la diapositiva de elección de colores</div>
+            <div class="step-title">Paso 3 (1 minuto): Proyectar la diapositiva 27 "Elección de Colores" y guiar la elección de colores.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"¡Buen trabajo! Ahora, cada integrante del equipo elegirá un color que quiere que predomine en uno de los dibujos que no hicieron. Tienen 1 minuto para decidir."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 4 (1.0 minutos): Proyectar la diapositiva de usar Paint</div>
+            <div class="step-title">Paso 4 (1 minuto): Proyectar la diapositiva 28 "Usar Paint" e indicar los pasos a seguir en Paint.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"Ahora, cada uno de ustedes abrirá Paint y dibujará el animal marino que eligieron, usando el color predominante que seleccionaron."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 5 (10.0 minutos): Guiar a los estudiantes mientras dibujan en Paint</div>
+            <div class="step-title">Paso 5 (10 minutos): Proyectar la diapositiva 29 "Dibujando en Paint" y guiar a los estudiantes mientras dibujan en Paint.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"Tienen 8 minutos para dibujar su animal marino en Paint. Recuerden usar el color predominante que eligieron. ¡Buena suerte!"</div>
         </div>
     </div>
 </div>
+<!-- Actividad 7: Easter Egg -->
 <div id="activity-7" class="activity">
-    <div class="banner" onclick="toggleContent('easter-egg')">
+    <div class="banner" onclick="toggleContent('easter_egg')">
         <div class="title">
-            <span>🎯 Actividad 7: Easter Egg (5 pasos)</span>
-            <span>⏰ Tiempo: 5.0 minutos</span>
+            <span>🥚 Actividad 7: Easter Egg</span>
+            <span>⏰ Tiempo: 2 minutos</span>
         </div>
-        <div class="subtitle">Verificar la atención de los estudiantes con una pregunta sorpresa</div>
-        <div class="summary">Proyectar la diapositiva de introducción al Easter Egg.</div>
+        <div class="subtitle">Dinámica de preguntas y recompensas</div>
+        <div class="summary">Una pregunta relacionada con la lección para premiar a los estudiantes más atentos.</div>
     </div>
-    <div id="easter-egg" class="content">
+    <div id="easter_egg" class="content">
         <div class="section">
-            <div class="step-title">Paso 1 (1.0 minutos): Proyectar la diapositiva de introducción al Easter Egg</div>
+            <div class="step-title">Paso 1 (0.5 minutos): Proyectar la diapositiva 30 "Easter Egg" y explicar la dinámica.</div>
             <div class="section-title">Diálogo del Maestro</div>
-            <div class="dialogue">"Ahora es el momento de ver quién ha estado prestando atención. La siguiente diapositiva tiene una pregunta sobre algo que discutimos hoy. Voy a premiar con Mon-e a las tres primeras personas que me den la respuesta correcta. Recuerden, la dinámica es la siguiente: en cuanto pase a la siguiente diapositiva, lean la pregunta y si saben la respuesta, levanten la mano. No digan la respuesta en voz alta, solo levanten la mano. Yo seleccionaré a 3 de ustedes. ¿Listos?"</div>
+            <div class="dialogue">"¡Es hora de ver quién ha estado prestando atención! Voy a hacer una pregunta sobre algo que hablamos hoy. Premiaré con Mon-e a las tres primeras personas que me den la respuesta correcta. Recuerden, cuando haga la pregunta, si saben la respuesta, levanten la mano. No digan la respuesta en voz alta, solo levanten la mano. ¿Listos?"</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 2 (1.0 minutos): Proyectar la diapositiva de la pregunta</div>
+            <div class="step-title">Paso 2 (0.5 minutos): Proyectar la diapositiva 31 "Pregunta del Easter Egg" y leer la pregunta en voz alta.</div>
             <div class="section-title">Diálogo del Maestro</div>
-            <div class="dialogue">"¿Por qué Windows se llama Windows?"</div>
+            <div class="dialogue">"Aquí está la pregunta: ¿Por qué Windows se llama Windows?"</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 3 (2.0 minutos): Seleccionar a 3 estudiantes para que den su respuesta en voz baja</div>
+            <div class="step-title">Paso 3 (0.5 minutos): Observar y seleccionar a 3 estudiantes para que den su respuesta en voz baja.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"Veo varias manos levantadas. Vamos a ver, [Nombre], [Nombre] y [Nombre], vengan aquí y díganme su respuesta en voz baja."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 4 (0.5 minutos): Dar la respuesta correcta y premiar a los estudiantes</div>
+            <div class="step-title">Paso 4 (0.5 minutos): Proyectar la diapositiva 32 "Respuesta Correcta" y compartir la respuesta con todos.</div>
             <div class="section-title">Diálogo del Maestro</div>
-            <div class="dialogue">"La respuesta correcta es: Windows se llama así porque permite trabajar con varias ventanas ('windows' en inglés) al mismo tiempo. ¡Felicidades a [Nombre], [Nombre] y [Nombre] por dar la respuesta correcta! Aquí tienen su Mon-e."</div>
+            <div class="dialogue">"La respuesta correcta es: Windows se llama así porque permite trabajar con varias ventanas ('windows' en inglés) al mismo tiempo. ¡Felicidades a [Nombre], [Nombre] y [Nombre] por dar la respuesta correcta!"</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 5 (0.5 minutos): Proyectar la diapositiva de cierre</div>
+            <div class="step-title">Paso 5 (0.5 minutos): Proyectar la diapositiva 33 "Objetivos de la Misión" y revisar los objetivos alcanzados.</div>
             <div class="section-title">Diálogo del Maestro</div>
-            <div class="dialogue">"Genios, ¡bien hecho! Ahora sigamos con nuestra misión."</div>
+            <div class="dialogue">"Genios, ¡bien hecho! miren cómo hemos terminado nuestros objetivos."</div>
         </div>
     </div>
 </div>
+<!-- Actividad 8: Honor de Dojo -->
 <div id="activity-8" class="activity">
-    <div class="banner" onclick="toggleContent('honor-dojo')">
+    <div class="banner" onclick="toggleContent('honor_dojo')">
         <div class="title">
-            <span>🏅 Actividad 8: Honor de Dojo (3 pasos)</span>
-            <span>⏰ Tiempo: 5.0 minutos</span>
+            <span>🏅 Actividad 8: Honor de Dojo</span>
+            <span>⏰ Tiempo: 5 minutos</span>
         </div>
-        <div class="subtitle">Reconocer y celebrar los logros de los estudiantes</div>
-        <div class="summary">Proyectar la diapositiva de finalización.</div>
+        <div class="subtitle">Reflexión y cierre de la clase</div>
+        <div class="summary">Reflexión sobre lo aprendido, celebración de logros y organización del espacio.</div>
     </div>
-    <div id="honor-dojo" class="content">
+    <div id="honor_dojo" class="content">
         <div class="section">
-            <div class="step-title">Paso 1 (2.0 minutos): Proyectar la diapositiva de finalización</div>
+            <div class="step-title">Paso 1 (1 minuto): Proyectar la diapositiva 34 "Honor de Dojo" y guiar la reflexión final.</div>
             <div class="section-title">Diálogo del Maestro</div>
-            <div class="dialogue">"¡Genios, han hecho un trabajo increíble hoy! Ahora, tomemos un momento para reflexionar. ¿Qué fue lo que más disfrutaron? ¿Qué aprendieron? Levanten la mano y compartan sus pensamientos."</div>
+            <div class="dialogue">"Genios, hemos llegado al final de nuestra misión de hoy. Vamos a reflexionar sobre lo que hemos aprendido y cómo lo hemos hecho. ¿Qué les pareció la actividad de hoy? ¿Qué creen que hicieron bien?"</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 2 (1.5 minutos): Reconocer y celebrar los logros de los estudiantes</div>
+            <div class="step-title">Paso 2 (1 minuto): Celebrar los logros de los estudiantes.</div>
             <div class="section-title">Diálogo del Maestro</div>
-            <div class="dialogue">"Vamos a reconocer a los Genios que más destacaron hoy. Los seleccionamos por su creatividad, esfuerzo y participación activa durante el desafío. Felicidades a [Nombre], [Nombre] y [Nombre] por su excelente trabajo. ¡Bien hecho!"</div>
+            <div class="dialogue">"¡Fantástico trabajo, Genios! Hoy hemos aprendido mucho sobre la navegación segura en internet. Quiero reconocer a todos por su participación y esfuerzo."</div>
         </div>
         <div class="section">
-            <div class="step-title">Paso 3 (1.5 minutos): Honrar el espacio en donde trabajamos y crear una cultura de respeto al poner orden</div>
+            <div class="step-title">Paso 3 (3 minutos): Guiar a los estudiantes para recoger y organizar el espacio.</div>
             <div class="section-title">Diálogo del Maestro</div>
             <div class="dialogue">"Ahora, recojan todo lo que usaron hoy y asegúrense de que el lugar quede ordenado. ¡Nos vemos en la próxima misión, Genios!"</div>
         </div>
@@ -440,3 +462,4 @@
 
 </body>
 </html>
+
